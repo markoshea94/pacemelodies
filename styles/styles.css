@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../images/PACE_504.jpg);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: auto;
+}
+
+li {
+  color: #f5989d;
+  list-style-type: none;
+  float: right;
+  font-size: 50px;
+  padding-right: 100px;
+  padding-top: 15px;
+  font-family: arial;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+nav img {
+  height: 70px;
+  width: 70px;
+  padding-left: 15px;
+}
+.container {
+  display: inline-block;
+  width: 1270px;
+  margin: 0;
+  padding: 0;
+}
+/*Hi Mark, Well done!
+
+I comment the code was messing with your layout, and refactored below.
+
+Good luck with your project.
+
+Keep going!*/
+
+/*.logo {
+  height: auto;
+  width: 700px;
+  display: block;
+}
+.logo img {
+  padding-left: 150px;
+}*/
+
+.logo {
+  height: auto;
+  width: 700px;
+  display: block;
+  margin: 0 auto;
+}
+.logo img {
+  width: 100%;
+  height: auto;
+  /*padding-left: 150px;*/
+}
