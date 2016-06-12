@@ -42,22 +42,6 @@ nav img {
   margin: 0;
   padding: 0;
 }
-/*Hi Mark, Well done!
-
-I comment the code was messing with your layout, and refactored below.
-
-Good luck with your project.
-
-Keep going!*/
-
-/*.logo {
-  height: auto;
-  width: 700px;
-  display: block;
-}
-.logo img {
-  padding-left: 150px;
-}*/
 
 .logo {
   height: auto;
@@ -68,5 +52,4 @@ Keep going!*/
 .logo img {
   width: 100%;
   height: auto;
-  /*padding-left: 150px;*/
 }
